@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--light-gray);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.wrapper {
+    max-width: 60rem;
+    width: 100%;
+}
+
+.wrapper__header {
+    background-color: #fff;
+}
+
+.wrapper__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--cyan);
+}
+
+.wrapper__body article{
+    color: #fff;
+    padding: 3rem;
+}
+
+.wrapper__body-access {
+    background-color: var(--cyan-dark);
+}
+
+.wrapper__body-list ul {
+    list-style: none;
+}
+
+.wrapper__body-list ul li {
+
+}
